@@ -12,3 +12,4 @@ function calcBMI() {
 };
 
 calcBMI();
+console.log('Should we add the age?');
