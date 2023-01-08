@@ -14,7 +14,7 @@ function calcBMI() {
     let BMI = weightInKilo / heightSQR;
     console.log(`Your weight in kilogram is ${weightInKilo}kg and your height is ${heightinFeet}'${heightPlusInches} feet tall.`);
     console.log(`Height in meter is ${heightInMeter} and height squared is ${heightSQR}.`);
-    console.log(`BMI = weight in kilograms (${weightInKilo}) x height squared (${heightSQR}) and your BMI is ${BMI}.`);
+    console.log(`BMI = weight in kilograms (${weightInKilo}) / height squared (${heightSQR}) and your BMI is ${BMI}.`);
     // console.log(`Your BMI computation based on your weight and height is ${BMI}`);
     console.log('Please note that this result does not consider the age bracket');
 };
